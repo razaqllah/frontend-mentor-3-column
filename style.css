@@ -1,0 +1,84 @@
+*{
+      box-sizing: border-box;
+}
+
+body{
+
+      max-width: 80%;
+      margin: 100px auto;
+      font-size: 15px
+}
+
+.card{ 
+      background-color:hsl(0, 0%, 95%);
+      font-family: 'Lexend Deca', sans-serif;
+      font-weight: 400;
+}
+h1{
+     font-family: 'Big Shoulders Display', cursive;
+     font-weight: 700;
+}
+ p{
+      color:hsla(0, 0%, 100%, 0.75)
+      
+}
+h1, h3{
+      text-transform: uppercase;
+}
+.suv svg{
+      border-radius: 10px;
+}
+.sedans{
+      background-color: hsl(31, 77%, 52%);
+      padding: 35px 25px;
+      color: white;
+      border-radius: 10px 10px 0 0;
+      
+}
+.suv{
+      background-color: hsl(184, 100%, 22%);
+      padding: 35px 25px;
+      color: white;
+}
+.luxury{
+      background-color: hsl(179, 100%, 13%);
+      padding: 35px 25px;
+      color: white;
+      border-radius: 0 0 10px 10px;
+    
+}
+.sedans button{
+      padding: 10px 25px;
+      border-radius: 100px;
+      border: none;
+      color:hsl(31, 77%, 52%) ;
+
+}
+.suv button{
+      padding: 10px 25px;
+      border-radius: 100px;
+      border: none;
+      color:hsl(184, 100%, 22%) ;
+}
+.luxury button{
+      padding: 10px 25px;
+      border-radius: 100px;
+      border: none;
+      color:hsl(179, 100%, 13%) ; 
+    
+}
+      
+
+@media (min-width:600px) {
+      .card{
+            max-width: 100%;
+            display: flex;
+            margin: 10%;
+      }
+      .sedans{
+            border-radius: 10px 0 0 10px;
+      }
+      .luxury{
+            border-radius: 0 10px 10px 0;
+      }
+}
